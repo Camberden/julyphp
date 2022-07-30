@@ -15,12 +15,12 @@
       <img src="hrimg.jpg"  width="400" height="150" alt="HR logo">
   </header>     
 
-<?php include 'keys.php';
+<?php include 'access.php';
 // connect to database
-$server = ""; //default server we set up in sql lab
-$user = ""; //default user we set up in sql lab
-$pw = ""; //default pw we set up in sql lab
-$db = ""; //name of database for project
+$server = $db_server; //default server we set up in sql lab
+$user = $db_user; //default user we set up in sql lab
+$pw = $db_password; //default pw we set up in sql lab
+$db = $db_name; //name of database for project
 
 $connect = mysqli_connect ($server, $user, $pw, $db); //typical db connection based on php powerpoint
 
