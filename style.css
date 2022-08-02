@@ -1,109 +1,40 @@
-/* 
+
 section {
 
     text-align: center;
 
 }
 
-body{
+body {
+
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(11, 129, 184, 0.945);
 }
 
-h1{
+h1 {
+
     color: antiquewhite;
      font-size: 40px;
 }
+h2 {
 
-ul{
+    color:black;
+}
+
+h3 {
+
+	color: black;
+}
+
+ul {
+
     list-style-type: none;
 	padding: left;
 	border-style: solid;
 }
 
-white {
-    color: white;    
-}
+header {
 
-footer{
-    text-align: center;
-    background-color: rgb(238, 234, 241);
-    
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-
-caption{
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: lighter;
-    color: antiquewhite;
-    font-size: larger;
-    text-align: left;
-	border: 5px gray;
-}
-
-table{
-    border: 50px;
-	background-color: antiquewhite;
-	height: 450px;
-	width: 1000px;
-}
-
-thead, th, td {
-    border: 5px solid black;
-}
-
-thead > tr > th {
-    background-color: antiquewhite;
-    color: black;
-    }
-
-img {
-    border: 10px;
-    border-color:rgb(238, 234, 241) ;
-	width: 80px;
-}
-
-nav ul{
-    padding: 0;
-    font-size: medium;
-	list-style-type: circle;
-}
-
-.cost{
-    text-align: center;
-}
-
-legend{
-    background-color:black;
-    color:white;
-    font-family:Arial, Helvetica, sans-serif;
-	padding: 50px;
-    position: relative;
-    font-size: large;
-}
-
-button{
-    background-color:black;
-    color:white;
-    font-family:Arial, Helvetica, sans-serif;
-	font-size: 15px;
-}
-
-label{
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-h2{
-    color:black;
-}
-
-header{
     background-color:black;
     font-size:20px;
     color:white;
@@ -113,27 +44,106 @@ header{
 
 }
 
+footer {
+
+    text-align: center;
+    background-color: transparent;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+caption {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+    color: antiquewhite;
+    font-size: larger;
+    text-align: left;
+	border: 5px gray;
+}
+
+table {
+
+    border: 50px;
+	background-color: slategrey;
+	height: 450px;
+	width: 1000px;
+}
+
+thead, th, td {
+
+    border: 5px solid black;
+}
+
+thead > tr > th {
+
+    background-color: antiquewhite;
+    color: black;
+}
+
+nav ul {
+
+    padding: 0;
+    font-size: medium;
+	list-style-type: circle;
+}
+
+.cost {
+
+    text-align: center;
+}
+
+legend {
+
+    background-color:black;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+	padding: 50px;
+    position: relative;
+    font-size: large;
+    border: 5px solid violet;
+}
+
+button {
+
+    background-color:black;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+label {
+
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
 li {
 	border: 3px;
 	padding: 5px;
 }
 
-a{
+a {
 	text-decoration:underline;
 	color: white;
 }
-h3{
-	color: gray;
-}
-tbody{
+
+tbody {
+
 	color: antiquewhite;
 }
-tfoot{
+
+tfoot {
+
 	font-size:20px;
 	color: gray;
 	background-color:antiquewhite;
 }
 
- .about{
+.about {
+
     text-align: center;
-} */
+}

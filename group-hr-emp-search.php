@@ -7,7 +7,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Employee Search Results</title>
-    <!-- <link rel='stylesheet' href='style.css'> -->
+    <link rel='stylesheet' href='style.css'>
 </head>
 <body>
 <header>
@@ -16,11 +16,11 @@
   </header>     
 
 <?php include 'access.php';
-// connect to database
-$server = $db_server; //default server we set up in sql lab
-$user = $db_user; //default user we set up in sql lab
-$pw = $db_password; //default pw we set up in sql lab
-$db = $db_name; //name of database for project
+
+$server = $db_server; /
+$user = $db_user; 
+$pw = $db_password; 
+$db = $db_name; 
 
 $connect = mysqli_connect ($server, $user, $pw, $db); //typical db connection based on php powerpoint
 
